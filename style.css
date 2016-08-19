@@ -1,0 +1,110 @@
+.container {
+  min-width: 320px;
+}
+
+body {
+	background: url('https://images.unsplash.com/photo-1467825683276-01f37b99c328?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=874285b396775ed12b889a66813f481b');
+	  font-family:'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	color: white;
+	font-size: 60px;
+}
+
+h3 {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	color: black;
+	font-size: 30px;
+	
+}
+
+
+.buttons {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color: red;
+
+	
+}
+
+
+
+
+.tic-tac-toe-table {
+  width: 300px;
+}
+
+.right {
+  float: right;
+  width: 42%;
+	background-color: black;
+	opacity: 0.6;
+	color: white;
+}
+
+.left {
+  width: 57%;
+		background-color: black;
+	opacity: 0.6;
+	color: white;
+}
+
+.auto-margin {
+  width: 310px;
+  margin: 2px auto !important;
+  float: none;
+}
+
+.board-piece {
+  height: 75px;
+  width: 75px;
+  padding: 0px;
+  background-color: rgb(20, 20, 20);
+	
+}
+
+.board-button {
+  height: 60px;
+  width: 60px;
+	color: red;
+	font: 'Oswald', sans-serif;
+}
+
+
+.text-container {
+  position: relative;
+  height: 4em;
+  
+}
+.animation.ng-enter {
+  transition: 0.5s linear all;
+}
+.animation.ng-enter {
+  opacity:0;
+}
+.animation.ng-enter-active {
+  opacity:1;
+}
+.animation.ng-leave {
+  opacity:1;
+}
+.animation.ng-leave-active {
+  opacity:0;
+}
+
+@media only screen and (max-width: 570px) {
+  h3 {
+    font-size: 1.3em;
+  }
+		body {
+			background: url('https://images.unsplash.com/photo-1467825683276-01f37b99c328?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=874285b396775ed12b889a66813f481b');
+			 background-position: center;
+			 background-attachment: fixed;
+	}}
